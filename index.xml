@@ -1,0 +1,79 @@
+<cataleg>
+	<llista_actors>
+		<actor id="russell">
+			<nom>Russell Crowe</nom>	
+			<edat>60</edat>
+		</actor>
+		<actor id="jphoenix">
+			<nom>Joaquin Phoenix</nom>	
+		</actor>
+		<actor id="connieNielsen">
+			<nom>Connie Nielsen</nom>	
+		</actor>
+        <actor id="diCaprio">
+			<nom>Leonardo diCaprio</nom>
+            <edat>50</edat>	
+		</actor>
+        <actor id="kateWinslet">
+			<nom>Kate Winslet</nom>	
+		</actor>
+        <actor id="billyZane">
+			<nom>Billy Zane</nom>
+            <edat>58</edat>	
+		</actor>
+        <actor id="kidman">
+			<nom>Nicole Kidman</nom>
+            <edat>57</edat>	
+		</actor>
+        <actor id="eccleston">
+			<nom>Christopher Eccleston</nom>
+            <edat>60</edat>	
+		</actor>
+        <actor id="alakina">
+			<nom>Alakina Mann</nom>
+		</actor>
+	</llista_actors>
+	
+	<llista_pelicules>
+		<pelicula id="gladiator">
+			<titol idioma="espanyol">Gladiator</titol>
+			<director>Ridley Scott</director>
+			<any>2000</any>
+			<actors>
+				<actor_ref ref="russell">Rusell Crowe</actor_ref>
+				<actor_ref ref="jphoenix">Joaquin Phoenix</actor_ref>
+				<actor_ref ref="connieNielsen">Connie Nielsen</actor_ref>
+			</actors>
+		</pelicula>
+		<pelicula id="titanic">
+			<titol idioma="espanyol"></titol>
+			<director>James Cameron</director>
+			<any>1997</any>
+			<actors>
+				<actor_ref ref="diCaprio">Leonardo diCaprio</actor_ref>
+				<actor_ref ref="kateWinslet">Kate Winslet</actor_ref>
+				<actor_ref ref="billyZane">Billy Zane</actor_ref>
+			</actors>
+		</pelicula>
+		<pelicula id="otros">
+			<titol idioma="espanyol"></titol>
+			<director>Alejandro Amenábar</director>
+			<any>2001</any>
+			<actors>
+				<actor_ref ref="kidman">Nicole Kidman</actor_ref>
+				<actor_ref ref="eccleston">Christopher Eccleston</actor_ref>
+				<actor_ref ref="alakina">Alakina Mann</actor_ref>
+			</actors>
+		</pelicula>		
+	</llista_pelicules>
+
+	<llista_recomanacions_pelicules>
+		<recomanacio ref="gladiator">
+		</recomanacio>
+		<recomanacio ref="titanic">
+		</recomanacio>
+		<recomanacio ref="otros">
+		</recomanacio>
+	</llista_recomanacions_pelicules>
+	
+</cataleg>
